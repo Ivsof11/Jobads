@@ -1,0 +1,30 @@
+<div class="login-container">
+    <img class="job" src="assets/images/job.jpg">
+    <div class="logo">Job Ads</div>
+    <div class="desc">
+        Are you looking for a new job?
+        Don't know where and how to find?
+    </div>
+    <div class="info">
+        You have come to the right place!
+    </div>
+    <div class="login-form">
+        <div class="form-group">
+            <div class="form-group">
+                <label for="uname">E-mail</label>
+            <input type="text" name="email" class="form-control" [(ngModel)]="email" />
+        </div>
+        <div class="form-group">
+            <label for="uname">Username</label>
+            <input type="text" name="uname" class="form-control" [(ngModel)]="username" />
+        </div>
+        <div class="form-group">
+            <label for="pass">Password</label>
+            <input type="password" name="pass" class="form-control" [(ngModel)]="password" />
+        </div>
+        <div class="btn-container">
+            <div class="error">{{errorMsg}}</div>
+            <button class="btn btn-dark" (click)="login()">Login</button>
+        </div>
+    </div>
+    </div>

@@ -1,0 +1,32 @@
+[
+  {
+    "id": 6,
+    "name": "Operations Sales Support with a Scandinavian language",
+    "cover": "http://coursera-university-assets.s3.amazonaws.com/3d/5b6b32681044ec8f55baa5531c10a2/Acc_Logo_Black_Purple_RGB.png",
+    "rating": 2.15,
+    "reviews": [
+      {
+        "author": "Ivona",
+        "published_on": "31.08.2022",
+        "review": "Good",
+        "rating": 4.5
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Operation Sales Support with German",
+    "cover": "http://coursera-university-assets.s3.amazonaws.com/3d/5b6b32681044ec8f55baa5531c10a2/Acc_Logo_Black_Purple_RGB.png",
+    "rating": 1.85,
+    "reviews": [
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Enterprise Agreement Transaction Support with Italian",
+    "cover": "http://coursera-university-assets.s3.amazonaws.com/3d/5b6b32681044ec8f55baa5531c10a2/Acc_Logo_Black_Purple_RGB.png",
+    "rating": 3.25,
+    "reviews": [
+    ]
+  }
+]

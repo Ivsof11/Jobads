@@ -1,0 +1,96 @@
+.job-container{
+    width: 1400px;
+    padding-left: 50px;
+    padding-top: 50px;
+    .top{
+        display: flex;
+        .left{
+            width: 500px;
+            .name{
+                font-size: 30px;
+                font-weight: bold;
+            }
+            .rating{
+                display: flex;
+                align-items: center;
+                margin-bottom: 15px;
+                .rating-value{
+                    margin-left: 20px;
+                    font-weight: bold;
+                }
+            }
+            .cover{
+                width: 500px;
+                height: 500px;
+                padding-right: 70px;
+                img{
+                    width: 100%;
+                    height: 50%;
+                    object-fit: cover;
+                }
+            }
+        }
+        .right{
+            width: 900px;
+            padding-top: 150px;
+            .title{
+                margin-bottom: 30px;
+            }
+            .rating-form{
+                .form-group{
+                    margin-top: 20px;
+                }
+                label{
+                    font-weight: bold;
+                    margin-bottom: 5px;
+                }
+                textarea{
+                    resize: none;
+                }
+            }
+            .btn-container{
+                margin-top: 30px;
+
+            }
+        }
+    }
+    .bottom{
+        margin-bottom: 50px;
+        .title{
+            margin-bottom: 30px;
+        }
+        .reviews{
+            width: 900px;
+            .review{
+                margin-bottom: 25px;
+                background-color:grey;
+                padding: 20px;
+                border-radius: 5px;
+                .review-details{
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 20px;
+                    .review-left{
+                        .author{
+                            font-size: 18px;
+                            font-weight: bold;
+                        }
+                        .author-dt{
+                            opacity: 0.7;
+                        }
+                    }
+                    .review-right{
+                        .rating{
+                            display: flex;
+                            align-items: center;
+                            .rating-value{
+                                margin-left: 20px;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,58 @@
+<app-header></app-header>
+<div class="home-container">
+    <div class="all-jobs">
+        <div class="trending-jobs">
+            <div class="top">
+                <h4>Trending Jobs</h4>
+                <div class="view-all">View All</div>
+            </div>
+            <div class="jobs-thumbnail">
+                <div class="job" *ngFor="let job of trendingJobs">
+                    <div class="cover" (click)="goToJob('trending', job.id)">
+                        <img [src]="job.cover" alt="">
+                    </div>
+                    <div class="detail">
+                        <div class="name" (click)="goToJob('trending', job.id)">{{job.name}}</div>
+                        <div class="rating">
+                            <span class="rating-value">{{job.rating}}</span>
+                            <app-star-rating [rating]="job.rating" [isReadOnly]="true"></app-star-rating>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="new-today">
+            <div class="top">
+                <h4>New Jobs Today</h4>
+                <div class="view-all">View All</div>
+            </div>
+            <div class="jobs-thumbnail">
+                <div class="job" *ngFor="let job of newToday">
+                    <div class="cover" (click)="goToJob('new', job.id)">
+                        <img [src]="job.cover" alt="">
+                    </div>
+                    <div class="detail">
+                        <div class="name" (click)="goToJob('new', job.id)">{{job.name}}</div>
+                        <div class="rating">
+                            <span class="rating-value">{{job.rating}}</span>
+                            <app-star-rating [rating]="job.rating" [isReadOnly]="true"></app-star-rating>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="active-jobs">
+        <h4>Active Jobs</h4>
+        <div class="jobs">
+            <div class="job" *ngFor="let job of popularJobs">
+                <div class="name" (click)="goToJob('popular', job.id)">{{job.name}}</div>
+                <div class="rating">
+                    <span class="rating-value">{{job.rating}}</span>
+                    <app-star-rating [rating]="job.rating" [isReadOnly]="true"></app-star-rating>
+                </div>
+            </div>
+            <div class="view-all">View All</div>
+        </div>
+    </div>
+</div>

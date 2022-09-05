@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Game Support Representative for Wargaming with Polish and English",
+    "cover": "https://gameindustry.bg/cms/wp-content/uploads/2020/10/telus_logo_test3.jpg",
+    "rating": 4.25,
+    "reviews": [
+      {
+        "author": "TELUS INTERNATIONAL EUROPE ",
+        "published_on": "02.09.2022",
+        "review": "If you are passionate about gaming, join our growing Game Support team in the biggest employer in the CX (Customer Experience) industry in Bulgaria - get the job you will enjoy!We challenge you to be part of the cool and fun team of WARgamers!",
+        "rating": 4.5
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Game Support Representative with Spanish and English",
+    "cover": "https://gameindustry.bg/cms/wp-content/uploads/2020/10/telus_logo_test3.jpg",
+    "rating": 4.15,
+    "reviews": [
+      {
+        "author": "TELUS INTERNATIONAL EUROPE ",
+        "published_on": "31.08.2022",
+        "review": "If you are passionate about gaming, join our Game Support team in the biggest CX (Customer Experience) provider in Bulgaria - get the job you will enjoy!",
+        "rating": 4.5
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Player Support Specialist for Riot Games Account with Hungarian and English",
+    "cover": "https://gameindustry.bg/cms/wp-content/uploads/2020/10/telus_logo_test3.jpg",
+    "rating": 4.13,
+    "reviews": [
+      {
+        "author": "TELUS INTERNATIONAL EUROPE",
+        "published_on": "31.08.2022",
+        "review": "Join our growing TELUS team supporting League of Legends, VALORANT, Legends of Runeterra, and TfT - get the job you will enjoy!",
+        "rating": 4.0
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Psychologist/ Wellbeing Counsellor (m/f/d)",
+    "cover": "https://gameindustry.bg/cms/wp-content/uploads/2020/10/telus_logo_test3.jpg",
+    "rating": 4.12,
+    "reviews": [
+      {
+        "author": "TELUS INTERNATIONAL EUROPE",
+        "published_on": "12.08.2022",
+        "review": "We are looking for psychological specialists for our exciting corporate environment in the field of social media content moderation. If you are communicative and enjoy helping people, we have the ideal job for you!",
+        "rating": 4.5
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Social Media Content Analyst with Kurdish and English",
+    "cover": "https://gameindustry.bg/cms/wp-content/uploads/2020/10/telus_logo_test3.jpg",
+    "rating": 4.53,
+    "reviews": [
+      {
+        "author": "TELUS INTERNATIONAL EUROPE",
+        "published_on": "20.07.2022",
+        "review": "We’re looking for a Content Review Specialist to join our team! You will help and keep our community safe by reviewing potentially violating content against our Content Guidelines.",
+        "rating": 4.5
+      }
+    ]
+  }
+]
